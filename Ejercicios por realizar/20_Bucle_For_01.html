@@ -1,0 +1,36 @@
+
+<!-- Calcular el factorial de un número.
+En este ejemplo, utilizamos una variable numero para almacenar el número 
+entero del cual queremos calcular el factorial. También inicializamos una 
+variable factorial en 1, ya que el factorial de cualquier número multiplicado 
+por 1 es igual a ese número.
+Luego, utilizamos un bucle for para iterar desde 1 hasta el número dado. 
+En cada iteración, multiplicamos el valor actual de factorial por el valor de i. 
+Al final del bucle, factorial contendrá el factorial del número dado.
+Finalmente, mostramos el resultado del factorial en la consola utilizando 
+console.log(). -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let numero = 5;
+    let factorial = 1;
+
+    for (let i = 1; i <= numero; i++) {
+      factorial *= i;
+    }
+
+    console.log(`El factorial de ${numero} es: ${factorial}`);
+  </script>
+
+</body>
+
+</html>

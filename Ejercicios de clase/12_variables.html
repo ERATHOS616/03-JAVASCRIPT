@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+//        Escribe un programa en JavaScript que realice las siguientes operaciones:
+// -	Pedir al usuario dos datos de tipo String, (login y password). 
+// -	Verificar si login=admin y si password = 1234. Sólo en caso afirmativo saldrá un alert en pantalla que diga “acceso permitido”, de lo contrario saldrá un alert que diga “acceso denegado”.
+// -	Vamos a suponer que en el campo login daremos por válida cualquier variación entre mayúsculas y minúsculas que el usuario nos pueda introducir. Es decir, será valido ADMIN, Admin, admin, admiN…etc
+
+let login = prompt("Introduzca login: ").toLowerCase();
+let password = prompt("Introduzca password: ");
+
+if(login == "admin" && password=="1234"){
+    alert("Acceso permitido");
+}else{
+    alert("Acceso denegado");
+}
+    </script>
+</body>
+
+</html>

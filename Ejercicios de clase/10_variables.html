@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+// Escribe un programa en JavaScript que realice las siguientes operaciones:
+// -	Pedir al usuario un dato de tipo String.
+// -	El programa deberá devolver el string en mayúsculas. Por ejemplo, "Hola" debería devolver "HOLA".
+// -	reemplace todos los espacios en blanco por guiones bajos. Por ejemplo,  "Hola mundo" debería devolver "Hola_mundo".
+
+let cadena = prompt("Introduzca la cadena: ");
+
+let mayusculas = cadena.toUpperCase();
+let conGuion =  cadena.replace(/ /g, '_');
+
+console.log("La cadena con los especios cambiados es: " + conGuion);
+
+
+
+
+
+    </script>
+</body>
+
+</html>

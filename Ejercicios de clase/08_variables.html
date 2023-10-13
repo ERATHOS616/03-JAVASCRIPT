@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+//    Escribe un programa en JavaScript que realice las siguientes operaciones:
+// -Pedir al usuario dos datos, (precio y descuento).
+// -El programa deberá tomar el precio de un producto y el porcentaje de descuento y devolver el precio con el descuento aplicado.
+
+        let precio = Number(prompt("Introduzca el precio:"));
+        let descuento = Number(prompt("Introduzca el descuento:"));
+        
+        let precioFinal = precio * (descuento / 100);
+        let resultado = precio - descuento;
+ 
+        console.log("El precio era de " + precio +  " €. Con descuento se queda en " + resultado + " €.");
+
+    </script>
+</body>
+
+</html>

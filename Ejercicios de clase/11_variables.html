@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Vamos a crear una calculadora básica.
+        // Escribe un programa en JavaScript que realice las siguientes operaciones:
+        // -	Pedir al usuario dos datos de tipo Number. Serán los números con los que vamos a operar.
+        // -	Preguntar al usuario si va a sumar, restar, multiplicar o dividir.
+        // -	Realizar la operación elegida usando los números introducidos por el usuario.
+
+
+        let num1 = Number(prompt("Introduzca número 1:"));
+        let num2 = Number(prompt("Introduzca número 2:"));
+
+        let opcion = prompt("Introduzca elección: sumar, restar, multiplicar, dividir").toLowerCase();
+        var resultado;
+
+        if (opcion == "sumar") {
+            resultado = num1 + num2;
+            alert("El resultado de sumar " + num1 + " y " + num2 + " es " + resultado);
+        } else if (opcion == "restar") {
+            resultado = num1 - num2;
+            alert("El resultado de restar " + num1 + " menos " + num2 + " es " + resultado);
+        } else if (opcion == "multiplicar") {
+            resultado = num1 * num2;
+            alert("El resultado de multiplicar " + num1 + " por " + num2 + " es " + resultado);
+        } else if (opcion == "dividir") {
+            resultado = num1 / num2;
+            alert("El resultado de dividir " + num1 + " entre " + num2 + " es " + resultado);
+        } else {
+            alert("Opción no válida!!!");
+            console.log(resultado);
+        }
+
+        console.log(resultado);
+    </script>
+</body>
+
+</html>

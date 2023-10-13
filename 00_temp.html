@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Documento sin título</title>
+</head>
+
+<body>
+  <script>
+let numStr = "42";
+let nonNumStr = "Hola";
+
+console.log(/^\d+$/.test(numStr)); // true, porque numStr representa un número
+console.log(/^\d+$/.test(nonNumStr)); // false, porque nonNumStr no representa un número
+
+  </script>
+</body>
+
+</html>
