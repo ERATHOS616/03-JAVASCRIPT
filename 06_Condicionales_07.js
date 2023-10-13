@@ -1,7 +1,7 @@
-//IF anidado. Ejemplo 2
 
-let login = prompt("Introduzca login");
-let password = prompt("Introduzca password");
+
+let login = "ADMINISTRADOR";
+let password = "12345678";
 let loginCorrecto = "admin";
 let passwordCorrecto = 1234;
 
@@ -14,6 +14,11 @@ if ((login != "admin")) {
     alert("Password incorrecto. Vuelva a intentarlo");
   }
 }
+
+
+
+
+
 
 /* Podemos darle la vuelta a la lógica
 
